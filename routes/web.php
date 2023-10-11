@@ -29,4 +29,5 @@ Route::middleware([
     })->name('dashboard');
 });
 //Accede al controlador en general?
-Route::resource('Marcas','App\Http\Controllers\MarcaController');
+Route::resource('usuarios','App\Http\Controllers\UsuarioController');
+Route::resource('pagos','App\Http\Controllers\PagoController');
